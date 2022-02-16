@@ -20,8 +20,8 @@
         <nav class="nav flex-column">
           <img src="avatar.png" style="width:160px" alt="">
           <a class="nav-link" href="#about">About</a>
-          <a class="nav-link" href="#education">Skills</a>
-          <a class="nav-link" href="#experience">Interests</a>
+          <a class="nav-link" href="#skills">Skills</a>
+          <a class="nav-link" href="#interests">Interests</a>
         </nav>
       </nav>
     </div>
@@ -38,28 +38,17 @@
         </div>
       </div>
       <hr>
-      <div id="education" class="content-item">
+      <div id="skills" class="content-item">
         <div class="vertical-center">
-          <h2>Education</h2>
+          <h2>Skills</h2>
           <p>...</p>
         </div>
       </div>
       <hr>
-      <div id="experience" class="content-item">
+      <div id="interests" class="content-item">
         <div class="vertical-center">
-          <h2>Experience</h2>
-          <?php foreach($json_data['experience'] AS $experience) { ?>
-              <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                <div class="flex-grow-1">
-                  <h3 class="mb-0"><?php echo $experience['title']; ?></h3>
-                  <div class="subheading mb-3"><?php echo $experience['employer']; ?></div>
-                  <p><?php echo $experience['description']; ?></p>
-                </div>
-                <div class="flex-shrink-0">
-                  <span class="text-primary"><?php echo $experience['period']; ?></span>
-                </div>
-              </div>
-          <?php  } ?>
+          <h2>Interests</h2>
+            <p>...</p>
         </div>
       </div>
       <hr>
