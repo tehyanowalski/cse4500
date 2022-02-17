@@ -42,9 +42,9 @@
         <div class="vertical-center">
           <h2>Skills</h2>
             <h4><?php echo $json_data['skills']; ?><h4>
-                <p>"System Administration"</p>
-                <p>"Technical Skills: Configure Networks, Network Security, Troubleshooting, Software Installation and Management"</p>
-                <p>"Programming Languages: C++, PuTTY, Python, HTML, CSS"</p>
+                <p> • System Administration</p>
+                <p> • Technical Skills: Configure Networks, Network Security, Troubleshooting, Software Installation and Management</p>
+                <p> • Programming Languages: C++, PuTTY, Python, HTML, CSS</p>
         </div>
       </div>
       <hr>
@@ -52,9 +52,9 @@
         <div class="vertical-center">
           <h2>Interests</h2>
             <h4><?php echo $json_data['interests']; ?><h4>
-                <p>"extended knowledge in computer languages"</p>
-                <p>"web development"</p>
-                <p>"extended knowledge in System Administration"</p>
+                <p> • extended knowledge in computer languages</p>
+                <p> • web development</p>
+                <p> • extended knowledge in System Administration</p>
         </div>
       </div>
       <hr>
