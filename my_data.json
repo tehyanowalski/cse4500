@@ -1,3 +1,7 @@
+<h1>
+    <?php echo $json_data['first-name']; ?>
+    <span class="text-primary"><?php echo $json_data['last-name']; ?></span>
+</h1>
 {
   "first-name": "Tehya",
   "last-name": "Nowalski",
