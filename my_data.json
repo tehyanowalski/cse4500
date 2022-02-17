@@ -5,13 +5,16 @@
   "phone": "(123)456-7890",
   "email": "tehyan@coyote.csusb.edu",
   "introduction": "Highly determined System Administration student who delivers persistent performance while undertaking high-pressure environments. Demonstrates strong basic network understanding and problem-solving solutions.",
-  "skills":[
+  "skills":
+  {
     "• System Administration",
     "• Technical Skills: Configure Networks, Network Security, Troubleshooting, Software Installation and Management",
     "• Programming Languages: C++, PuTTY, Python, HTML, CSS"
-  ]
-  "interests":[
+  {
+  "interests":
+  {
   "• extended knowledge in computer languages",
   "• web development",
   "• extended knowledge in System Administration"
+  }
 }
