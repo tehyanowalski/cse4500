@@ -1,8 +1,23 @@
 {
-  "first-name": "Tehya",
-  "last-name": "Nowalski",
+  "first-name": "Carson",
+  "last-name": "Weeks",
   "address": "5500 University Pkwy, San Bernardino, CA 92407",
   "phone": "(123)456-7890",
-  "email": "tehyan@coyote.csusb.edu",
-  "introduction": "Highly determined System Administration student who delivers persistent performance while undertaking high-pressure environments. Demonstrates strong basic network understanding and problem-solving solutions."
+  "email": "mail@carsonweeks.com",
+  "introduction": "Hello world, assignment 2",
+  "education": "CSUSB",
+  "experience":[
+    {
+      "title":"WEB DEVELOPER",
+      "employer":"CSUSB",
+      "period":"March 2018 - Present",
+      "description":"A description of your experience with this job."
+    },
+    {
+      "title":"APPLICATION DEVELOPER",
+      "employer":"CSUSB",
+      "period":"March 2018 - 2021",
+      "description":"A description of your experience with this job."
+    }
+  ]
 }
