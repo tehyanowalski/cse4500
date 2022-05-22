@@ -20,8 +20,8 @@
         <nav class="nav flex-column">
           <img src="avatar.png" style="width:160px" alt="">
           <a class="nav-link" href="#about">About</a>
-          <a class="nav-link" href="#skills">Skills</a>
-          <a class="nav-link" href="#interests">Interests</a>
+          <a class="nav-link" href="#education">Education</a>
+          <a class="nav-link" href="#experience">Experience</a>
         </nav>
       </nav>
     </div>
@@ -38,23 +38,28 @@
         </div>
       </div>
       <hr>
-      <div id="skills" class="content-item">
+ <div id="education" class="content-item">
         <div class="vertical-center">
-          <h2>Skills</h2>
-            <h4><?php echo $json_data['skills']; ?><h4>
-                <p> • System Administration</p>
-                <p> • Technical Skills: Configure Networks, Network Security, Troubleshooting, Software Installation and Management</p>
-                <p> • Programming Languages: C++, PuTTY, Python, HTML, CSS</p>
+          <h2>Education</h2>
+          <p><?php echo $json_data['education']; ?></p>
         </div>
       </div>
       <hr>
-      <div id="interests" class="content-item">
+      <div id="experience" class="content-item">
         <div class="vertical-center">
-          <h2>Interests</h2>
-            <h4><?php echo $json_data['interests']; ?><h4>
-                <p> • extended knowledge in computer languages</p>
-                <p> • web development</p>
-                <p> • extended knowledge in System Administration</p>
+          <h2>Experience</h2>
+          <?php foreach($json_data['experience'] AS $experience) { ?>
+              <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                <div class="flex-grow-1">
+                  <h3 class="mb-0"><?php echo $experience['title']; ?></h3>
+                  <div class="subheading mb-3"><?php echo $experience['employer']; ?></div>
+                  <p><?php echo $experience['description']; ?></p>
+                </div>
+                <div class="flex-shrink-0">
+                  <span class="text-primary"><?php echo $experience['period']; ?></span>
+                </div>
+              </div>
+          <?php  } ?>
         </div>
       </div>
       <hr>
