@@ -1,23 +1,23 @@
 {
-  "first-name": "Carson",
-  "last-name": "Weeks",
+  "first-name": "Tehya",
+  "last-name": "Nowalski",
   "address": "5500 University Pkwy, San Bernardino, CA 92407",
   "phone": "(123)456-7890",
-  "email": "mail@carsonweeks.com",
-  "introduction": "Hello world, assignment 2",
+  "email": "005511125@coyote.csusb.edu",
+  "introduction": "Hello world!",
   "education": "CSUSB",
   "experience":[
     {
-      "title":"WEB DEVELOPER",
+      "title":"SYSTEM ADMINISTRATOR",
       "employer":"CSUSB",
-      "period":"March 2018 - Present",
-      "description":"A description of your experience with this job."
+      "period":"August 2016 - Present",
+      "description":"Experience in CSE 3650 and CSE 3660."
     },
     {
       "title":"APPLICATION DEVELOPER",
       "employer":"CSUSB",
-      "period":"March 2018 - 2021",
-      "description":"A description of your experience with this job."
+      "period":"January 2022 - 2022",
+      "description":"Experience in CSE 4500."
     }
   ]
 }
